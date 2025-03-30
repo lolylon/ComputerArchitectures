@@ -1,0 +1,10 @@
+START : READ NUM
+       LOAD NUM
+       BRANCHNEG END
+       ADD SUM
+       STORE SUM
+       BRANCH START
+END:   WRITE SUM
+       HALT
+NUM:   0
+SUM:   0
